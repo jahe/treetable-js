@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(172, 196, 216);
+}
+
+.headline {
+    margin: 50px auto;
+    text-align: center;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-weight: 100;
+    font-size: 70px;
+    color: #5C6C84;
+}
+
+.tree-table {
+    margin: 0 auto;
+    display: table;
+    font-family: arial;
+    font-weight: 300;
+    font-size: 12px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 15px;
+    table-layout: fixed;
+    width: 800px;
+}
+
+.tree-table>thead {
+    color: #989898;
+    font-weight: bold;
+}
+
+.tree-table>thead>tr>td:first-child {
+    width: 150px;
+}
+
+.tree-table tr>td:first-child {
+    font-weight: bold;
+}
+
+.tt-row,
+.tt-head {
+    display: table-row;
+}
+
+.tt-children {
+    display: table-row-group;
+}
+
+.tree-table td {
+    height: 25px;
+    padding: 0 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.hidden {
+    display: none;
+}
+
+.tt-cell {
+    display: table-cell;
+}
+
+.layer-1>.tt-cell:first-child {
+    padding-left: 50px;
+}
+
+.layer-2>.tt-cell:first-child {
+    padding-left: 100px;
+}
+
+.expand-btn {
+    height: 16px;
+    width: 16px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 0;
+    margin-right: 4px;
+    display: inline-block;
+    text-align: center;
+    font-weight: normal;
+    color: #B5B5B5;
+    cursor: default;
+}
+
+.expand-btn:hover {
+    color: #333;
+}
