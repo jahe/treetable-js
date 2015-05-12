@@ -35,10 +35,6 @@ body {
     width: 150px;
 }
 
-.tree-table tr>td:first-child {
-    font-weight: bold;
-}
-
 .tt-row,
 .tt-head {
     display: table-row;
@@ -62,6 +58,10 @@ body {
 
 .tt-cell {
     display: table-cell;
+}
+
+.tt-node {
+    font-weight: bold;
 }
 
 .layer-1>.tt-cell:first-child {

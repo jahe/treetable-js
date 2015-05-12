@@ -110,6 +110,7 @@
                     cell.classList.add('tt-cell');
 
                     if (keyIndex === 0 && hasChildren) {
+                        cell.classList.add('tt-node');
                         var expandBtn = document.createElement('span');
                         expandBtn.classList.add('expand-btn');
                         expandBtn.innerHTML = '-';
